@@ -33,6 +33,7 @@
 }
 
 /* for mobile  */
+
 @media screen and (max-width:427px) {
     .navbar p{
         font-size: 0.9rem;
@@ -100,4 +101,5 @@ margin-bottom: 2px;
 .getstarted2 {
     width: auto;
 }
+
 }
