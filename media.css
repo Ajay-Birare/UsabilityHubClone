@@ -1,0 +1,103 @@
+@media screen and (max-width:769px) {
+    .hamberger{
+        display: block;
+    }
+    .right-link{
+        display: none;
+    }
+         .footer1 div {
+             padding: 10px;
+         }
+         .creator h3{
+            font-size:  1.2rem;
+            width: auto;
+         }
+                 .page p {
+                     font: size 0.5rem;
+                     text-align: center;
+                     width: auto;
+                 } 
+}
+
+/* laptops */
+@media screen and (max-width:1024) {
+    .float-img{
+        flex-direction: column;
+    }
+   .float-img .img1{
+    height: 100%;
+   }
+ .content {
+    flex-direction: column;
+   }
+}
+
+/* for mobile  */
+@media screen and (max-width:427px) {
+    .navbar p{
+        font-size: 0.9rem;
+    }
+    .page h1{
+        font-size: 1.2rem;
+    }
+        .page p {
+        font: size 0.5rem;   
+        text-align: center;
+        width: auto;
+         }
+                 .footer1{
+margin-bottom: 2px;
+
+                 }
+                  
+         .footer1 div{
+            padding: 10px;
+         }
+    .footer2{
+        margin-bottom: 1px;
+    }
+.footer2 div h1 {
+    /* margin-top: 5px; */
+    margin: 2px auto;
+    width: auto;
+    font-size: 1rem;
+}
+.footer2 div p{
+    width: auto;
+    font-size: 0.9rem;
+}
+.footer2 div a {
+    font-size:10px ;
+    width: 80%;
+    padding-left: 1px 30px;
+}
+.companies ul {
+    margin-top: 20px;
+    flex-direction: row;
+}
+.companies li {
+    font-size: 1rem;
+    margin: 0px auto;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    /* margin-left: 20px; */
+    text-align: center;
+
+}
+/* .companies li {
+    padding: 5px;
+    margin-left: 0px;
+} */
+.creator h3 {
+    font-size: 0.9rem;
+    width: auto;
+}
+.creatorpic{
+    border-radius: 10%;
+    height: 50px;
+}
+.getstarted2 {
+    width: auto;
+}
+}
